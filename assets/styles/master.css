@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;1,400&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Jost", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.0rem;
     font-weight: 400;
     line-height: 1.25;
@@ -356,6 +358,6 @@ header {
     width: max-content;
 }
 
-.selected-banner-wrapper{
+.selected-banner-wrapper {
     margin-top: 40px;
 }
