@@ -142,6 +142,17 @@ a {
     margin: 30px 0px;
 }
 
+.gt-y-20 {
+    margin: 20px 0px;
+}
+
+.gt-yb-20 {
+    margin-bottom: 20px;
+}
+.gt-yb-30 {
+    margin-bottom: 30px;
+}
+
 .c-pointer {
     cursor: pointer;
 }
@@ -292,6 +303,7 @@ header {
     height: 100%;
     border: 1px solid #f1f1f1;
     border-top: none;
+    border-radius: 0px 0px 10px 10px;
     padding: 20px 0px;
 }
 
@@ -359,5 +371,94 @@ header {
 }
 
 .selected-banner-wrapper {
-    margin-top: 40px;
+    margin: 40px 0px;
+    background: #f1f1f1;
+    padding: 40px;
+}
+
+.selected-banner-wrapper .nice-deals {
+    width: 300px;
+    height: 500px;
+    background-image: url(../media/img/iphone-green.png), linear-gradient(135.68deg, #586B57 0%, #32462E 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0px 20px;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.selected-banner-wrapper a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.selected-banner-wrapper h2 {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.selected-banner-wrapper .btn-2 {
+    text-decoration: none !important;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid  #fff;
+    color: #fff;
+    width: max-content;
+}
+
+.selected-banner-wrapper>div:nth-child(2) {
+    margin-left: 40px;
+    width: calc(100% - 300px);
+    height: 500px;
+}
+
+.selected-banner-wrapper>div:nth-child(2)>div {
+    width: 100%;
+    height: 100%;
+}
+
+.selected-banner-wrapper .huge-saving {
+    margin-left: 30px;
+}
+
+.selected-banner-wrapper .huge-saving>div {
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    color: #fff;
+}
+
+.selected-banner-wrapper .huge-saving .banner-1 {
+    background-image: url(../media/img/watch-1.png), linear-gradient(117.29deg, #514D4B 1.01%, #2F3438 99.95%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.selected-banner-wrapper .huge-saving .banner-2 {
+    margin-top: 30px;
+    background-image: url(../media/img/tablet-1.png), linear-gradient(117deg, #2D608D 0%, #F52D47 99.95%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.selected-banner-wrapper .best-sale>div {
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    color: #fff;
+}
+
+.selected-banner-wrapper .best-sale .banner-1 {
+    background-image: url(../media/img/hp-1.png), linear-gradient(116.93deg, #E7D1B7 0%, #82766A 99.98%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.selected-banner-wrapper .best-sale .banner-2 {
+    margin-top: 30px;
+    background-image: url(../media/img/headphone-1.png), linear-gradient(105.36deg, #42424B 0%, #21222D 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
