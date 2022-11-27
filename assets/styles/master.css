@@ -86,6 +86,9 @@ a {
     align-items: center;
 }
 
+.fs-24 {
+    font-size: 1.5rem;
+}
 .fs-20 {
     font-size: 1.25rem;
 }
@@ -176,6 +179,10 @@ a {
 
 .gt-yt-30 {
     margin-top: 30px;
+}
+
+.gt-yb-10 {
+    margin-bottom: 10px;
 }
 
 .c-pointer {
@@ -434,11 +441,13 @@ header {
     background: #f1f1f1;
     padding: 40px;
 }
-.selected-banner-wrapper >div{
+
+.selected-banner-wrapper>div {
     max-width: 1400px;
     width: 100%;
     margin: auto;
 }
+
 .selected-banner-wrapper .nice-deals {
     width: 300px;
     height: 500px;
@@ -601,8 +610,33 @@ header {
     transform: translate(-50%, -50%) !important;
 }
 
-.black-friday{
+.black-friday {
     max-width: 1400px;
     width: 100%;
     padding: 0px 40px;
+}
+
+.category-wrapper {
+    width: 100%;
+    background: #f1f1f1;
+    margin: 40px 0px;
+    padding: 0px 40px;
+}
+
+.category-wrapper>div {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+.category-wrapper .category-row {
+    width: 100%;
+}
+
+.icon-wrapper-160 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #fff;
 }
