@@ -118,6 +118,10 @@ a {
     margin-right: 10px;
 }
 
+.gt-xl-10 {
+    margin-left: 10px;
+}
+
 .gt-x-10 {
     margin: 0px 10px;
 }
@@ -134,8 +138,16 @@ a {
     margin-left: 15px;
 }
 
+.gt-x-15 {
+    margin: 0px 15px;
+}
+
 .gt-xl-20 {
     margin-left: 20px;
+}
+
+.gt-x-20 {
+    margin: 0px 20px;
 }
 
 .gt-xl-30 {
@@ -162,11 +174,16 @@ a {
     margin-bottom: 30px;
 }
 
+.gt-yt-30 {
+    margin-top: 30px;
+}
+
 .c-pointer {
     cursor: pointer;
 }
 
 .root-wrapper {
+    min-width: 1300px;
     width: 100%;
     position: relative;
     background: #fff;
@@ -181,6 +198,8 @@ header {
 }
 
 .header-top {
+    width: 100%;
+    max-width: 1400px;
     padding: 15px 0px;
     color: #ccc;
 }
@@ -190,6 +209,8 @@ header {
 }
 
 .header-main {
+    width: 100%;
+    max-width: 1400px;
     padding: 15px 0px 15px 0px;
 }
 
@@ -210,7 +231,7 @@ header {
 .nav-search .search-category {
     position: absolute;
     color: #555;
-    background: #ddd;
+    background: #f1f1f1;
     height: 100%;
     border-radius: 10px 0px 0px 10px;
     padding: 0px 10px;
@@ -219,7 +240,7 @@ header {
 }
 
 .nav-search .search-category:hover {
-    background: #ccc;
+    background: #ddd;
 }
 
 .nav-search input[type="search"] {
@@ -278,6 +299,8 @@ header {
 }
 
 .header-bottom {
+    width: 100%;
+    max-width: 1400px;
     margin-top: 10px;
 }
 
@@ -305,6 +328,13 @@ header {
     width: 100%;
     padding: 0px 40px;
     height: 550px;
+}
+
+.hero>div {
+    max-width: 1400px;
+    margin: auto;
+    height: 100%;
+    width: 100%;
 }
 
 .department-content {
@@ -347,24 +377,28 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    padding-left: 40px;
     justify-content: center;
+    position: relative;
+}
+
+.hero-main .txt-wrapper {
+    padding-left: 40px;
     color: #fff;
 }
 
-.hero-main>a {
+.hero-main .txt-wrapper>a {
     color: #fff;
     margin-bottom: 20px;
     text-decoration: underline;
 }
 
-.hero-main>h1 {
+.hero-main .txt-wrapper>h1 {
     font-size: 2.6rem;
     font-weight: 400;
 }
 
 .hero-main .h1-decorate {
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 .hero-main span {
@@ -372,19 +406,39 @@ header {
 }
 
 .hero-main .btn-1 {
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 0.5rem 1.25rem;
     background: #06f;
     color: #fff;
     width: max-content;
 }
 
+.hero-main .slide-control-wrapper {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-main .slide-control-wrapper .circle-tab {
+    background: #fff;
+}
+
+.hero-main .slide-control-wrapper .active-tab::before {
+    border: 1px solid #fff;
+}
+
 .selected-banner-wrapper {
+    width: 100%;
     margin: 40px 0px;
     background: #f1f1f1;
     padding: 40px;
 }
-
+.selected-banner-wrapper >div{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
 .selected-banner-wrapper .nice-deals {
     width: 300px;
     height: 500px;
@@ -415,13 +469,13 @@ header {
     width: max-content;
 }
 
-.selected-banner-wrapper>div:nth-child(2) {
+.selected-banner-wrapper>div>div:nth-child(2) {
     margin-left: 40px;
     width: calc(100% - 300px);
     height: 500px;
 }
 
-.selected-banner-wrapper>div:nth-child(2)>div {
+.selected-banner-wrapper>div>div:nth-child(2)>div {
     width: 100%;
     height: 100%;
 }
@@ -476,6 +530,8 @@ header {
 
 .flash-sales {
     width: 100%;
+    margin: auto;
+    max-width: 1400px;
     height: max-content;
     padding: 0px 40px;
     margin-bottom: 40px;
@@ -522,4 +578,25 @@ header {
 
 .flash-sales .prev-item-price {
     color: #555;
+}
+
+.slide-control-wrapper .circle-tab {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+    position: relative;
+    cursor: pointer;
+}
+
+.slide-control-wrapper .active-tab::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
 }
