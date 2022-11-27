@@ -89,6 +89,7 @@ a {
 .fs-24 {
     font-size: 1.5rem;
 }
+
 .fs-20 {
     font-size: 1.25rem;
 }
@@ -169,6 +170,10 @@ a {
     margin: 20px 0px;
 }
 
+.gt-yt-20 {
+    margin-top: 20px;
+}
+
 .gt-yb-20 {
     margin-bottom: 20px;
 }
@@ -194,7 +199,6 @@ a {
     width: 100%;
     position: relative;
     background: #fff;
-    overflow: auto;
 }
 
 header {
@@ -546,13 +550,13 @@ header {
     margin-bottom: 40px;
 }
 
-.flash-sales>.title-wrapper p,
-.flash-sales>.title-wrapper span {
-    font-size: 2.3rem;
+.title-wrapper>p,
+.title-wrapper>p>span {
+    font-size: 2.0rem;
     font-weight: 500;
 }
 
-.flash-sales .title-wrapper a {
+.title-wrapper a {
     color: #09f;
 }
 
@@ -583,6 +587,10 @@ header {
 
 .flash-sales .item-name {
     font-size: 2.0rem;
+}
+
+.flash-sales .item-price {
+    color: #f00;
 }
 
 .flash-sales .prev-item-price {
@@ -639,4 +647,129 @@ header {
     height: 160px;
     border-radius: 50%;
     background-color: #fff;
+}
+
+.new-products {
+    width: 100%;
+    max-width: 1400px;
+    padding: 0px 40px;
+}
+
+.new-products-content {
+    height: 520px;
+}
+
+.new-products .nice-deal {
+    width: 350px;
+    height: 100%;
+    background-color: #F0E3E1;
+    background-image: url(../media/img/phone-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0px 20px;
+    padding-top: 40px;
+    color: #000;
+}
+
+.new-products .nice-deal a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.new-products .nice-deal h2 {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.new-products .nice-deal .btn-2 {
+    text-decoration: none !important;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid #000;
+    color: #000;
+    width: max-content;
+}
+
+.new-products-content>div:nth-child(2) {
+    width: calc(100% - 350px);
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.new-products-content>div:nth-child(2)>div:nth-child(1) {
+    width: 100%;
+    height: calc(100% - 30px);
+}
+
+.card-item-wrapper {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+    padding: 20px 20px;
+}
+
+.card-item-wrapper .img-wrapper {
+    width: 100%;
+    height: 45%;
+}
+
+.card-item-wrapper .txt-wrapper {
+    width: 100%;
+    height: 55%;
+    margin-top: 20px;
+}
+
+.card-item-wrapper .txt-wrapper>a {
+    color: #555;
+}
+
+.best-deals-wrapper {
+    width: 100%;
+    margin: 40px 0px;
+    padding: 0px 40px;
+}
+
+.best-deals-wrapper .col-2-row {
+    width: 100%;
+    height: 300px;
+}
+
+.best-deals-wrapper a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.best-deals-wrapper h2 {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.best-deals-wrapper .btn-2 {
+    text-decoration: none !important;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid #fff;
+    color: #fff;
+    width: max-content;
+}
+
+.best-deals-wrapper .banner-1,
+.best-deals-wrapper .banner-2 {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 0px 30px;
+}
+
+.best-deals-wrapper .banner-1 {
+    background-image: url(../media/img/phone-4.png), linear-gradient(101.5deg, #303133 0%, #060606 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+}
+
+.best-deals-wrapper .banner-2 {
+    background-image: url(../media/img/phone-5.png), linear-gradient(101.5deg, #493C34 0%, #383548 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 90% center;
 }
