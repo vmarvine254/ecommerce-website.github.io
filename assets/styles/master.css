@@ -600,3 +600,9 @@ header {
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
 }
+
+.black-friday{
+    max-width: 1400px;
+    width: 100%;
+    padding: 0px 40px;
+}
