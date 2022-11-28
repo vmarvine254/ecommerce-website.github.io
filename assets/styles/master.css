@@ -118,6 +118,10 @@ a {
     margin: 0px 5px;
 }
 
+.gt-xl-5 {
+    margin-left: 5px;
+}
+
 .gt-xr-10 {
     margin-right: 10px;
 }
@@ -712,11 +716,13 @@ header {
     width: 100%;
     height: 45%;
 }
-.card-item-wrapper .img-wrapper img{
+
+.card-item-wrapper .img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
+
 .card-item-wrapper .txt-wrapper {
     width: 100%;
     height: 55%;
@@ -780,12 +786,187 @@ header {
     background-position: 90% center;
 }
 
-.featured-products-wrapper{
+.featured-products-wrapper {
     width: 100%;
+    max-width: 1400px;
     padding: 0px 40px;
     margin-bottom: 50px;
 }
 
-.featured-products-wrapper .title-wrapper{
+.featured-products-wrapper .title-wrapper {
     width: 100%;
+}
+
+.full-banner-1 {
+    width: 100%;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+}
+
+.full-banner-1 .banner-wrapper {
+    background: linear-gradient(90deg, #0E262A 0%, #526F77 100%);
+    color: #fff;
+    padding: 0px 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.full-banner-1 .banner-wrapper .l-txt-wrapper h2 {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+.full-banner-1 .banner-wrapper .l-txt-wrapper .btn-2 {
+    text-decoration: none !important;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid #fff;
+    color: #fff;
+    width: max-content;
+}
+
+.full-banner-1 .banner-wrapper .r-txt-wrapper {
+    width: 300px;
+}
+
+.full-banner-1 .banner-wrapper .r-txt-wrapper .row-features>div {
+    width: 100%;
+}
+
+.full-banner-1 .banner-wrapper .r-txt-wrapper .row-features span {
+    max-width: 100px;
+}
+
+.full-banner-1 .banner-wrapper .img-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.full-banner-1:last-child .banner-wrapper {
+    background: linear-gradient(90deg, #444444 0%, #222222 100%);
+}
+
+.trending-products {
+    padding: 0px 40px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.trending-products .trending-products-content {
+    width: 100%;
+}
+
+.trending-products .trending-products-content>div:first-child {
+    width: 50%;
+    height: 100%;
+}
+
+.trending-products .trending-deal {
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.trending-products .trending-deal .img-wrapper {
+    position: relative;
+    height: max-content !important;
+}
+
+.trending-products .trending-deal .btn-2 {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    z-index: 1;
+    text-decoration: none !important;
+    padding: 0.5rem 1.25rem;
+    background: #fc0;
+    color: #000;
+    width: max-content;
+}
+
+.featured-brands {
+    width: 100%;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+}
+
+.featured-brands>div {
+    width: 100%;
+}
+
+.featured-brands .icon-wrapper-160 {
+    background: #f5f5f5;
+}
+
+.featured-brands .slide-control-wrapper {
+    width: max-content !important;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer-top {
+    width: 100%;
+    background: #222;
+    padding: 50px 0px;
+    color: #fff;
+}
+
+.footer-top>div {
+    width: 230px;
+}
+
+.footer-top>div:not(:first-child) {
+    margin-left: 70px;
+}
+
+.footer-top>div>div:last-child {
+    border-left: 1px solid #444;
+    padding-left: 30px;
+}
+
+.footer-main {
+    width: 100%;
+    background: #333;
+}
+
+.footer-main-top {
+    padding: 40px 40px;
+    color: #fff;
+}
+
+.footer-main-top>div:not(:first-child) {
+    margin-left: 70px;
+}
+
+.footer-main-top input {
+    width: 200px;
+    padding: 12px 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 0.875rem;
+}
+
+.footer-main-top .btn-3 {
+    padding: 12px 20px;
+    background: #06f;
+    color: #fff;
+}
+.icon-wrapper-36{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+.footer-main a {
+    color: #ddd;
+}
+
+.footer-main-bottom {
+    border-top: 1px solid #555;
+    padding: 20px 40px;
+    color: #999;
 }
